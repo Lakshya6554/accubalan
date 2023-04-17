@@ -1,0 +1,57 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.login-signup-btn{
+    font-size: 16px;
+    background-color: #565387;
+    text-decoration: none;
+    border: #565387 solid 2px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    align-content: center;
+    border-color: #565387;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-left: 120px;
+  }
+  .login-signup-btn:hover{
+    color: #565387;
+    background-color: white;
+  }
+  p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  strong{
+    color: #565387;
+  }
